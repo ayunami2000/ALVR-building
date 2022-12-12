@@ -46,7 +46,7 @@ jobs:
           prerelease: false
 
   build_linux_server:
-    runs-on: ubuntu-latest
+    runs-on: Ubuntu-20.04
     needs: [prepare_release]
     steps:
       - uses: actions/checkout@v2
